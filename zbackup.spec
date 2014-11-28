@@ -1,7 +1,7 @@
 Summary:        A globally-deduplicating backup tool
 Name:           zbackup
-Version:        1.2
-Release:        2
+Version:        1.3
+Release:        1
 License:        GPL v2+
 Group:          Applications/Archiving
 URL:            http://zbackup.org/
@@ -44,6 +44,8 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) /usr/local/bin/%{name}
 
 %changelog
+* Fri Nov 28 2014 Daniele Viganò <daniele@vigano.me>
+- bump to version 1.3
 * Mon Apr 28 2014 Dmitriy Slupytskyi <dslupytskyi@gmail.com>
 - added dependencies for install
 
